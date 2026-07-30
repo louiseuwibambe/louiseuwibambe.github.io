@@ -9,7 +9,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -49,6 +49,8 @@
 
         <div class="hero-text">
 
+            <p class="eyebrow">Computer Science &mdash; Systems &amp; Security</p>
+
             <h1>Hello, I'm <span>Louise Uwibambe</span></h1>
 
             <h2>Assistant Professor of Computer Science</h2>
@@ -72,8 +74,22 @@
 
         <div class="hero-image">
 
-            <img src="images/profile.jpg"
-                 alt="Louise Uwibambe">
+            <div class="photo-frame">
+                <!--
+                    Swap this block for your real headshot:
+                    <img src="images/profile.jpg" alt="Louise Uwibambe">
+                -->
+                <img src="images/profile.jpg"
+                     alt="Louise Uwibambe"
+                     onerror="this.closest('.photo-frame').classList.add('is-placeholder')">
+                <div class="photo-placeholder" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.4">
+                        <circle cx="12" cy="8" r="3.6"></circle>
+                        <path d="M4.5 19.5c1.6-3.4 4.4-5.1 7.5-5.1s5.9 1.7 7.5 5.1"></path>
+                    </svg>
+                    <span>Add photo<br><small>images/profile.jpg</small></span>
+                </div>
+            </div>
 
         </div>
 
@@ -81,11 +97,15 @@
 
 </section>
 
+<div class="trace" aria-hidden="true"><span></span></div>
+
 <!-- About -->
 
 <section class="about-preview">
 
     <div class="container">
+
+        <p class="eyebrow">About</p>
 
         <h2>About Me</h2>
 
@@ -95,7 +115,9 @@
             Control Systems. My research explores intelligent techniques for improving
             software reliability, vulnerability discovery, and secure cyber-physical
             systems.
+        </p>
 
+        <p>
             I am passionate about teaching, student mentorship, and advancing research
             through interdisciplinary collaboration.
         </p>
@@ -108,12 +130,15 @@
 
 </section>
 
+<div class="trace" aria-hidden="true"><span></span></div>
+
 <!-- Research Interests -->
 
 <section class="research">
 
     <div class="container">
 
+        <p class="eyebrow">Focus areas</p>
         <h2>Research Interests</h2>
 
         <div class="cards">
@@ -156,12 +181,15 @@
 
 </section>
 
+<div class="trace" aria-hidden="true"><span></span></div>
+
 <!-- Teaching -->
 
 <section id="courses" class="courses">
 
     <div class="container">
 
+        <p class="eyebrow">Teaching</p>
         <h2>Courses I Teach</h2>
 
         <div class="cards">
@@ -177,7 +205,7 @@
                 </p>
 
                 <a href="courses/software-engineering.html">
-                    Learn More →
+                    Learn More &rarr;
                 </a>
 
             </div>
@@ -193,7 +221,7 @@
                 </p>
 
                 <a href="courses/programming-languages.html">
-                    Learn More →
+                    Learn More &rarr;
                 </a>
 
             </div>
@@ -210,7 +238,7 @@
                 </p>
 
                 <a href="courses/concepts-of-programming.html">
-                    Learn More →
+                    Learn More &rarr;
                 </a>
 
             </div>
@@ -221,21 +249,24 @@
 
 </section>
 
+<div class="trace" aria-hidden="true"><span></span></div>
+
 <!-- News -->
 
 <section class="news">
 
     <div class="container">
 
-        <h2>News & Updates</h2>
+        <p class="eyebrow">Updates</p>
+        <h2>News &amp; Updates</h2>
 
         <ul>
 
-            <li>📢 Welcome to my academic website.</li>
+            <li><span class="tag">Site</span> Welcome to my academic website.</li>
 
-            <li>🎓 Course materials will be added throughout each semester.</li>
+            <li><span class="tag">Teaching</span> Course materials will be added throughout each semester.</li>
 
-            <li>🔬 Research projects and publications will be updated regularly.</li>
+            <li><span class="tag">Research</span> Research projects and publications will be updated regularly.</li>
 
         </ul>
 
@@ -249,6 +280,7 @@
 
     <div class="container">
 
+        <p class="eyebrow">Get in touch</p>
         <h2>Contact</h2>
 
         <p>
@@ -256,29 +288,27 @@
             student supervision, or course-related questions.
         </p>
 
-        <p>
-            <strong>Email:</strong>
-            your.email@university.edu
-        </p>
+        <div class="contact-grid">
+            <p>
+                <strong>Email</strong>
+                your.email@university.edu
+            </p>
 
-        <p>
-            <strong>Office:</strong>
-            Department of Computer Science
-        </p>
+            <p>
+                <strong>Office</strong>
+                Department of Computer Science
+            </p>
+        </div>
 
-        <p>
+        <p class="social-links">
 
-            <a href="https://github.com/louiseuwibambe" target="_blank">
+            <a href="https://github.com/louiseuwibambe" target="_blank" rel="noopener">
                 GitHub
             </a>
-
-            |
 
             <a href="#">
                 Google Scholar
             </a>
-
-            |
 
             <a href="#">
                 LinkedIn
@@ -296,7 +326,7 @@
 
         <p>
 
-            © 2026 Louise Uwibambe
+            &copy; 2026 Louise Uwibambe
 
             <br>
 
