@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineering | Louise Uwibambe</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: #f5f7fa;
+        }
+
+        header {
+            background: #003366;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #002244;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd54f;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,.08);
+        }
+
+        h2 {
+            color: #003366;
+            margin-bottom: 15px;
+        }
+
+        .topics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #f8f9fc;
+            padding: 20px;
+            border-left: 5px solid #003366;
+            border-radius: 6px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #003366;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>CPSI 30093 : Software Engineering</h1>
+    <p>Principles and Practices for Designing, Developing, Testing, and Maintaining Large-Scale Software Systems.</p>
+</header>
+
+
+<div class="container">
+
+<section>
+    <h2>Course Overview</h2>
+
+    <p>
+        This Software Engineering course covers techniques of design, implementation, automated tools, quality assurance,
+        metrics and maintenance for large-scale software systems. Projects include team
+        programming experience
+    </p>
+</section>
+
+<section>
+
+<h2>Learning Objectives</h2>
+
+<p>By the end of the course, students will be able to:</p>
+
+<ul>
+    <li>Develop algorithmic solutions to computational problems.</li>
+    <li>Write well-structured Python programs.</li>
+    <li>Use variables, functions, loops, and conditionals effectively.</li>
+    <li>Work with common data structures including strings, lists, dictionaries, and tuples.</li>
+    <li>Read from and write to files and databases.</li>
+    <li>Design simple object-oriented programs using classes and inheritance.</li>
+    <li>Debug, test, and improve software solutions.</li>
+</ul>
+
+</section>
+
+
+<section>
+
+<h2>Topics Covered</h2>
+
+<div class="topics">
+
+<div class="card">
+<h3><a href="#">Course Introduction</a></h3>
+<p>Overview of the course, programming concepts, and expectations.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Programming as a Way of Thinking</a></h3>
+<p>Developing computational thinking, problem-solving approaches, and algorithm development.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Variables and Statements</a></h3>
+<p>Understanding variables, data types, expressions, and program statements.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Functions</a></h3>
+<p>Creating reusable code using functions and modular programming techniques.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Functions and Interfaces</a></h3>
+<p>Designing function interfaces, parameters, and interactions between program components.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Conditionals and Recursion</a></h3>
+<p>Using decision-making structures and recursive problem-solving techniques.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Return Values</a></h3>
+<p>Understanding function outputs, return statements, and value passing.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Iteration and Search</a></h3>
+<p>Applying loops, iteration techniques, and searching algorithms.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Strings and Regular Expressions</a></h3>
+<p>Processing text data using strings and pattern matching techniques.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Lists</a></h3>
+<p>Working with lists, collections, and data manipulation operations.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Dictionaries</a></h3>
+<p>Using key-value data structures for organizing and retrieving information.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Tuples</a></h3>
+<p>Understanding immutable data structures and tuple-based programming.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Text Analysis and Generation</a></h3>
+<p>Analyzing and generating text using programming techniques.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Files and Databases</a></h3>
+<p>Reading, writing, storing, and managing structured data.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Classes and Functions</a></h3>
+<p>Combining classes and functions to design reusable software components.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Classes and Methods</a></h3>
+<p>Defining classes, methods, and behaviors in object-oriented programs.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Classes and Objects</a></h3>
+<p>Understanding objects, class design, and object-oriented programming principles.</p>
+</div>
+
+<div class="card">
+<h3><a href="#">Inheritance</a></h3>
+<p>Extending classes and implementing relationships between objects.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Course Format</h2>
+
+<p>
+Students learn through lectures, in-class programming demonstrations,
+hands-on laboratory exercises, quizzes, and programming projects.
+Emphasis is placed on writing correct, readable, and maintainable code while
+developing systematic problem-solving skills.
+</p>
+
+</section>
+
+<section>
+
+<h2>Programming Language</h2>
+
+<p>
+The course uses <strong>Python</strong> as the primary programming language.
+Python's simple syntax allows students to focus on computational thinking
+and software design before moving to more advanced programming concepts.
+</p>
+
+</section>
+
+<section>
+
+<h2>Homeworks, Quizzes and Tests</h2>
+
+<ul>
+<li><a href="#">Graded Lab 1</a></li>
+<li><a href="#">Graded Lab 2</a></li>
+<li><a href="#">Graded Lab 3</a></li>
+<li><a href="#">Graded Lab 4</a></li>
+<li><a href="#">Graded Lab 5</a></li>
+
+<li><a href="#">Quiz 1</a></li>
+<li><a href="#">Quiz 2</a></li>
+<li><a href="#">Quiz 3</a></li>
+<li><a href="#">Quiz 4</a></li>
+
+<li><a href="#">Midterm Exam</a></li>
+<li><a href="#">Final Exam</a></li>
+</ul>
+
+
+</section>
+
+</div>
+
+<footer>
+
+<p>
+© 2026 Louise Uwibambe | Arkansas State University
+</p>
+
+</footer>
+
+</body>
+</html>
