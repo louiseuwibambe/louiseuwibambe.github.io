@@ -519,3 +519,30 @@ footer p {
   section:not(.hero) { padding: 48px 0; }
   .contact-grid { gap: 24px; }
 }
+
+
+
+.assessment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.assessment-table th,
+.assessment-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.assessment-table th {
+    background-color: #f2f2f2;
+}
+
+.assessment-table td {
+    width: 33.33%;
+}
+
+.assessment-table a {
+    text-decoration: none;
+}
